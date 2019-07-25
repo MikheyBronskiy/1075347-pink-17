@@ -1,0 +1,36 @@
+@import "variables.less";
+@import "fonts.less";
+@import "blocks/page-header.less";
+@import "blocks/hamburger-button.less";
+@import "blocks/site-list.less";
+@import "blocks/download.less";
+@import "blocks/oval-button.less";
+@import "blocks/advantages.less";
+@import "blocks/photos.less";
+@import "blocks/copyright.less";
+
+body {
+  margin: 0;
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  color: @base-color;
+}
+
+a {
+  text-decoration: none;
+}
+
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
